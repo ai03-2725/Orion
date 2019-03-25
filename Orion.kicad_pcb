@@ -63,7 +63,7 @@
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -82,12 +82,12 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerber"))
   )
 
   (net 0 "")
@@ -1129,7 +1129,7 @@
     )
   )
 
-  (module locallib:ai-4.8-ring (layer F.Cu) (tedit 0) (tstamp 5C98CA49)
+  (module locallib:ai-4.8-ring locked (layer F.Cu) (tedit 0) (tstamp 5C98CA49)
     (at 73 92.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -1217,7 +1217,7 @@
       (xy 0.003175 -2.377565)) (layer F.SilkS) (width 0.01))
   )
 
-  (module locallib:ai-outline-7.6 (layer B.Cu) (tedit 0) (tstamp 5C98D014)
+  (module locallib:ai-outline-7.6 locked (layer B.Cu) (tedit 0) (tstamp 5C98D014)
     (at 80 70 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -1801,7 +1801,7 @@
   (segment (start 84.59 47.05) (end 84.32 46.78) (width 0.381) (layer F.Cu) (net 31))
   (segment (start 87 47.05) (end 84.59 47.05) (width 0.381) (layer F.Cu) (net 31))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5C98D384) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2198,7 +2198,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5C98D381) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2513,7 +2513,7 @@
       )
     )
   )
-  (zone (net 31) (net_name GNDA) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 31) (net_name GNDA) (layer F.Cu) (tstamp 5C98D37E) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
